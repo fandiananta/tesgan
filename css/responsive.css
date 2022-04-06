@@ -1,0 +1,53 @@
+@media screen and (max-width:376px) {
+    .navbar {
+        background-color: white;
+    }
+    .button p {
+        margin-top: 15px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:476px) {
+    .navbar {
+        background-color: white;
+    }
+    .navbar .nav-link {
+        color: black;
+    }
+    .navbar .nav-link {
+        font-family: 'Rubik', sans-serif;
+        font-family: 'Vidaloka', serif;
+        font-family: 'Work Sans', sans-serif;
+        color: black !important;
+    }
+    .jumbotron .images {
+        display: none;
+    }
+    .jumbotron iframe {
+        margin-top: 30px;
+        width: 100%;
+    }
+    .jumbotron h1 {
+        font-size: 40px;
+    }
+    .jumbotron h2 {
+        font-size: 25px;
+    }
+    .jumbotron p {
+        font-size: 20px;
+    }
+    .button p {
+        font-size: 15px;
+    }
+    .produk .produk-content {
+        width: 100%;
+        margin: auto;
+    }
+    .produk-unggulan h2 {
+        font-size: 25px;
+    }
+    .produk h2 {
+        font-size: 25px;
+    }
+}

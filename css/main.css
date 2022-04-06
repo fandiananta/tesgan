@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&family=Vidaloka&family=Work+Sans:wght@200;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Rubik:wght@300&family=Vidaloka&family=Work+Sans:wght@200;500&display=swap');
+body {
+    height: 999px;
+}
+
+.navbar {
+    z-index: 99;
+}
+
+.navbar .nav-link {
+    text-align: center;
+    color: white !important;
+}
+
+
+/* font  */
+
+
+/* font-family: 'Krona One', sans-serif; */
+
+.jumbotron {
+    margin-top: -70px;
+    position: relative;
+    background-color: transparent;
+}
+
+.jumbotron h1 {
+    font-size: 60px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.jumbotron h2 {
+    font-size: 30px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.jumbotron p {
+    font-size: 20px;
+}
+
+.jumbotron .button #btn-selengkapnya {
+    padding: 10px 25px;
+    background-color: #02556A;
+    color: white;
+    font-weight: bold;
+    border-radius: 100px;
+}
+
+.jumbotron .button {
+    display: flex;
+}
+
+.jumbotron #whatapps {
+    margin-left: 10px;
+    font-size: 40px;
+    color: #02556A;
+}
+
+.jumbotron img {
+    margin-top: -110px;
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    right: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 0;
+    width: 50%;
+}
+
+
+/* produk */
+
+.produk {
+    background-color: #f8f8f8;
+    padding-top: 120px;
+    position: relative;
+    padding-bottom: 120px;
+}
+
+.produk h2 {
+    font-family: 'Krona One', sans-serif;
+}
+
+.produk .produk-content {
+    width: 60%;
+    margin: auto;
+}
+
+.produk .produk-content p {
+    font-size: 20px;
+}
+
+.asesoris {
+    left: -100px;
+    position: absolute;
+}
+
+.produk .card {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border: none;
+    background-color: white;
+    margin-top: 40px;
+}
+
+.produk .card img {
+    margin-top: 30px;
+    width: 150px;
+}
+
+.produk .btn {
+    margin-top: 10px;
+    padding: 5px 25px;
+    background-color: #0587A8;
+    color: white;
+    text-decoration: none;
+    border-radius: 100px;
+}
+
+.produk-unggulan .card {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+
+/* .produk-unggulan .splide {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+} */
+
+.produk-unggulan .splide img {
+    padding: 0;
+    margin: 0;
+    width: 80%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.produk-unggulan .splide__slide {
+    margin-top: 30px;
+    border: 1px solid rgb(247, 247, 247);
+    padding: 40px;
+}
+
+.produk-unggulan {
+    position: relative;
+}
+
+.asesoris2 {
+    margin-top: 100px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+
+/* mitra */
+
+.mitra {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.mitra h2 {
+    font-family: 'Krona One', sans-serif;
+}
